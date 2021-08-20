@@ -12,7 +12,8 @@ import {
   TreeSelect,
   Switch,
 } from 'antd';
-
+import Constans from "@utils/Constans.tsx";
+console.log(Constans);
 const FormSizeDemo = () => {
   const [componentSize, setComponentSize] = useState('default');
 

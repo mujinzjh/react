@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter, Route, Link } from "react-router-dom";
-import test from "./views/test/test";
-import test1 from "./views/test/test1";
+import test from "./views/test/test.jsx";
+import test1 from "./views/test/test1.jsx";
 class App extends Component {
     render() {
         return (
